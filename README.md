@@ -32,7 +32,7 @@ We developed a Tanishq-inspired web app using HTML and CSS. It showcases a user-
 ---
 
 ## What I learned 
-During the development of this Myntra clone, I gained hands-on experience in structuring web pages using HTML and styling them using CSS. I learned about responsive design principles to adapt the layout for various screen sizes. Additionally, this project helped me understand the importance of attention to detail in mimicking the design of a complex web application.Also got an experience woking in a team along with colaboration.
+During the development of this Tanishq clone, I gained hands-on experience in structuring web pages using HTML and styling them using CSS. I learned about responsive design principles to adapt the layout for various screen sizes. Additionally, this project helped me understand the importance of attention to detail in mimicking the design of a complex web application.Also got an experience woking in a team along with colaboration.
 
  
  
