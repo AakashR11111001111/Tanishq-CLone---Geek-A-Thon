@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./Public/All icons/tanishq-icon.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="mia.css">
     <link rel="stylesheet" href="footer.css">
     <title>Mia | Tanishq Online Store</title>
@@ -15,7 +16,7 @@
             <div class="nav-bar">
                 <div class="nav-items">
                     <div class="nav-logo">
-                        <img src="./Public/All icons/tanishq logo.png" alt="">
+                        <a href="../index.html"><img src="./Public/images/main-tanishq-logo.svg" alt=""></a>
                     </div>
                     <div class="input-search">
                         <input type="text" placeholder="Search for Gold Jewellery, Diamond Jewellery and more...">  
@@ -357,7 +358,7 @@
                         </div>
                     </div>
                     <div class="pages"><a class="super-list" href="">DIGITAL GOLD</a></div>
-                    <div class="pages"><a class="super-list" href="../Mia/mia.html">MIA</a></div>
+                    <div class="pages"><a class="super-list" href="./mia.html">MIA</a></div>
                     <div class="pages">
                         <a class="super-list" href="">COLLECTIONS</a>
                         <div class="dropdown-list">
@@ -605,22 +606,21 @@
             </div>
         </nav>
         <div>
-            
             <section class="hero">
-                <div class="hero-section">
+                <div data-aos="fade-up" class="hero-section">
                     <img src="./mia-assets/hero-image.webp" alt="">
                 </div>
             </section>
         </div>
         <section>
-            <div data-aos="fade-up"  class="shop-by-catogory">
+            <div class="shop-by-catogory">
                 <div class="sbc-heading">
                     <h1>Shop By Category</h1>
                     <p>Browse through your favorite categories. We've got them all!</p>
                 </div>
                 <div class="stylish-divider"><img src="./Public/All icons/hr-design.svg" alt=""></div>
             </div>
-            <div data-aos="zoom-in-down" data-aos-duration="500" class="sbc-gallery">
+            <div class="sbc-gallery">
                 <div class="sbc-cards">
                     <div class="sbc-card-image"><img src="./mia-assets/mia-1.webp" alt=""></div>
                     <div class="sbc-card-content">
@@ -949,5 +949,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
