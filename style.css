@@ -225,6 +225,10 @@ body::-webkit-scrollbar-thumb{
     z-index: 15;
 }
 
+.dropdown-list td:hover{
+    color: #832627;
+}
+
 .pages:hover .dropdown-list{
     display: block;
     animation: fade-in 0.3s ease;
