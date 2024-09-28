@@ -19,7 +19,7 @@ We developed a Tanishq-inspired web app using HTML and CSS. It showcases a user-
  ## Technology Used
  - HTML
  - CSS
- - Owl Crousel
+ - Owl Carousel
  - AOS library
 
  ---
