@@ -11,6 +11,36 @@ body, html{
     width: 100%;
     font-family: "Nunito", sans-serif;
 }
+.sm-nav {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+}
+
+.sm-nav a {
+    
+    text-decoration: none;
+    font: 400 16px ibm plex sans, sans-serif;
+    color: #56544e !important;
+}
+
+.right-arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header h1 {
+    font-size: 25px;
+    color: #631717;
+    & > .result {
+        font-family: inter, san-serif;
+        color: #56544e;
+        font-size: 18px;
+        font-weight: 400;
+    }
+   margin-bottom: 20px;
+   margin-top: 15px;
+}
 
 body::-webkit-scrollbar{
     width: 7px;
